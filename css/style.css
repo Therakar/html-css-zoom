@@ -8,7 +8,6 @@
 /* DEBUG */
 main{
     margin: auto;
-    background-color: yellow;
     height: calc(100%-120px);
     width: 90%;
     color: ;
@@ -23,7 +22,11 @@ footer{
 body{
     background-color: black;
     height: 100vh;
+}
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 /* TYPOGRAPHY */
@@ -42,6 +45,7 @@ header{
     height: 30px;
     text-align: right; 
     line-height: 1.7;
+    margin-bottom: 30px;
 }
 
 header span{
@@ -52,6 +56,16 @@ header span{
     font-size: 14px;
 }
 /* MAIN */
+.user{
+    width: calc(100% / 7);
+    padding: 7px 3px;
+    po
+}
+
+.user img{
+    width: 100%;
+    display: block;
+}
 
 /* FOOTER */
 
