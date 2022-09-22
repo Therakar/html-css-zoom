@@ -10,12 +10,12 @@ main{
     margin: auto;
     height: calc(100%-120px);
     width: 90%;
-    color: ;
+    overflow-y: auto;
 }
 
 footer{
     background-color: red;
-    height: 90px;
+    height: 60px;
 }
 
 /* COMMON */
@@ -49,23 +49,33 @@ header{
 }
 
 header span{
-    margin-right: 10px;
+    margin-right: 5px;
     background-color: #4A4A4A;
     border-radius: 3px;
     padding: 3px 5px;
-    font-size: 14px;
+    font-size: 8px;
 }
 /* MAIN */
 .user{
     width: calc(100% / 7);
-    padding: 7px 3px;
-    po
+    padding: 10px 4px;
+    position: relative;
 }
 
 .user img{
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 
+.caption {
+    position: absolute;
+    bottom: 11%;    
+    left: 3%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    text-align: left;
+    font-size: 8px;
+}
+ 
 /* FOOTER */
 
