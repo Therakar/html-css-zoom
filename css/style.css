@@ -6,37 +6,51 @@
 }
 
 /* DEBUG */
-body {
-    background-color: black;
-    height: 100vh;
-}
-
-header {
-    background-color: green;
-    height: 30px;   
-}
-
-main {
+main{
     margin: auto;
     background-color: yellow;
     height: calc(100%-120px);
     width: 90%;
+    color: ;
 }
 
-footer {
+footer{
     background-color: red;
     height: 90px;
 }
 
 /* COMMON */
+body{
+    background-color: black;
+    height: 100vh;
+
+}
 
 /* TYPOGRAPHY */
 body{
     font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
 
 /* HEADER */
+header{
+    height: 30px;
+    text-align: right; 
+    line-height: 1.7;
+}
 
+header span{
+    margin-right: 10px;
+    background-color: #4A4A4A;
+    border-radius: 3px;
+    padding: 3px 5px;
+    font-size: 14px;
+}
 /* MAIN */
 
 /* FOOTER */
