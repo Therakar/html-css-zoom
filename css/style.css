@@ -5,6 +5,29 @@
     padding: 0;
 }
 
+/* DEBUG */
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+header {
+    background-color: green;
+    height: 30px;   
+}
+
+main {
+    margin: auto;
+    background-color: yellow;
+    height: calc(100%-120px);
+    width: 90%;
+}
+
+footer {
+    background-color: red;
+    height: 90px;
+}
+
 /* COMMON */
 
 /* TYPOGRAPHY */
